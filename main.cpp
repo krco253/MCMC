@@ -31,6 +31,7 @@ std::map<char,int> assignments;
 int brain(char var)
 {
 	float bias = 0; // conditional probability of a variable
+	/*--------------CONDITIONAL PROBABILITY TABLE-------------*/
 	switch(var)
 	{
 		case 'A': 
